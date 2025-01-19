@@ -66,8 +66,8 @@ const Dashboard = () => {
 
   // Logout function
   const handleLogout = () => {
-    setUser(null); // Clear the user from context
-    navigate('/'); // Redirect to home page
+    setUser(null); 
+    navigate('/'); 
   };
 
   return (
